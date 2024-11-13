@@ -1,5 +1,5 @@
 .backgoundColor {
-  background-color: #f1f2f4;
+  background-color: #fff;
   height: 100%;
 }
 .tag_section {
@@ -10,6 +10,7 @@
   width: 96%;
   margin: 0 auto;
 }
+
 @media (max-width: 1024px) {
   .catagoryImg {
     height: auto !important;
@@ -37,4 +38,96 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   line-clamp: 2;
+}
+//  personalizedCategoriesInspiration3
+
+.categories_card {
+  height: 457px;
+  width: 415px;
+}
+.cardContainer {
+  height: 457px;
+  width: 415px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F6F6;
+  border: none;
+  border-radius: 0;
+}
+.imageContainer {
+  width: 320px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.categories_title {
+display: flex;
+justify-content: space-between;
+}
+.viewMoreLink {
+font-weight: 500;
+color: #000;
+}
+.brandCard {
+  height: 170px;
+  width: 270px;
+  border: 2px solid rgb(191, 191, 191);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lefttabButton, .tabProductTitle {
+  font-size: 24px;
+  font-weight: 500;
+}
+.tabProductTitle {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.activeTabButton {
+  border-bottom: 2px solid #000;
+}
+.tabContainerMargin {
+  margin-top: 3.5rem;
+}
+.tabcardContainer {
+  background-color: #f6f6f6;
+  border: none;
+  height: 507px;
+  width: 415px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabimageContainer {
+height: 355px;
+width: 355px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.tabProductPrice {
+  margin-right: 15px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.tabProductmrpPrice {
+  color: #898888;
+  text-decoration:line-through;
+}
+.tabProductColor{
+  
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  font-size: 0;
+  text-align: center;
+  background-size: cover;
+  margin-right: 8px;
+  cursor: pointer;
 }

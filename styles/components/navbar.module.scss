@@ -116,3 +116,61 @@
 .order_list_items {
   padding: 3px 7px !important;
 }
+
+// apparel theme css
+
+.navBarItem {
+margin-right: 65px;
+}
+.NavbarInspiration2_search_bar {
+  height: 62px;
+  width: 580px
+}
+.NavbarInspiration2search_icon {
+  position: absolute;
+  right: 15px; /* Adjust as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray; /* Adjust color as needed */
+  cursor: pointer;
+}
+.NavbarInspiration2_container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.navBarItem a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.NavbarInspiration2_badge {
+  background: red;
+  border-radius: 50% !important;
+  bottom: 11px !important;
+  font-size: 12px;
+  font-weight: 600;
+  height: 1rem;
+  position: absolute;
+  right: 9px !important;
+  text-align: center;
+  width: 1rem;
+}
+.icon_container {
+  color: #000
+}
+.cartContainer {
+  margin-left: 30px;
+}
+.NavbarInspiration2_list_item {
+  width : 55px
+}
+.columnBg {
+  width: 100%;
+  padding: 30px;
+}
+.columnBg h6 a {
+  line-height: 1.5;
+  font-size: 18px !important;
+  color:#000;
+  text-decoration: none;
+}

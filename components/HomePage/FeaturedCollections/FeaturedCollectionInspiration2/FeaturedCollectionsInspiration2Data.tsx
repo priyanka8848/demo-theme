@@ -23,7 +23,6 @@ const FeaturedCollectionsInspiration2Data = (props: Props) => {
       <div className="text-center">
         <p className="fs-6">{data[activeTab]?.description}</p>
       </div>
-
       <div className="">
         <div className="text-center">
           <ul className="nav justify-content-center flex-row">

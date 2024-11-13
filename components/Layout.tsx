@@ -1,5 +1,7 @@
 import { useRouter } from 'next/router';
 import Navbar from './Navbar/Navbar';
+import WebNavbarInspiration2 from './Navbar/NavbarInspiration2/WebNavbarInspiration2';
+import NavbarInspiration2 from './Navbar/NavbarInspiration2/NavbarInspiration2';
 
 function Layout({ children }: any) {
   const router = useRouter();
@@ -10,7 +12,7 @@ function Layout({ children }: any) {
 
   return (
     <>
-      {toShowHeader && <Navbar />}
+      {toShowHeader && <NavbarInspiration2 />}
       {children}
     </>
   );

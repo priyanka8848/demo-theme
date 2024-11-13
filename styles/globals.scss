@@ -196,3 +196,37 @@
 .carousel_styles .react-multi-carousel-track {
   width: 100%;
 }
+
+// apparelTheme global css
+.section_heading {
+  font-weight: 600;
+  font-size: 2.25rem !important;
+}
+.section_subheading {
+  font-weight: 400;
+}
+.section-margin {
+  margin-top: 68px;
+}
+.linkStyle {
+  text-decoration: none !important;
+}
+.mainSection-margin {
+  margin-top: 114px;
+}
+.react-multi-carousel-list {
+  padding: 0;
+}
+.react-multiple-carousel__arrow--left {
+  left: 0% !important;
+}
+.react-multiple-carousel__arrow--right {
+  right: 0% !important;
+}
+input[type="text"]::placeholder {
+  color: #ccc; /* Adjust to your preferred style */
+  left: 25px;
+}
+.subMenu-container {
+  z-index: 100;
+}
